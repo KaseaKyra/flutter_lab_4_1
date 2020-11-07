@@ -2,7 +2,7 @@
 
 A new Flutter application.
 
-###### Structure of code
+## Structure of code
 
 ![](/screenshots/structure/Screenshot_12.png)
 
