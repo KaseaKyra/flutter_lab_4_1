@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'detail_screen.dart';
+import 'detail_view.dart';
 
 class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main Screen'),
+        title: Text('Animate a widget across screens'),
       ),
       body: GestureDetector(
         child: Hero(
           tag: 'imageHero',
           child: Image.network(
-            'https://picsum.photos/250?image=9',
+            'https://www.thedroidsonroids.com/wp-content/uploads/2019/06/flutter_blog-react-vs-flutter.png',
           ),
         ),
         onTap: () {

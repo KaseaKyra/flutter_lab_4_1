@@ -12,20 +12,18 @@ class SelectionScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.0),
               child: ElevatedButton(
                 onPressed: () {
-                  // Close the screen and return "Yep!" as the result.
                   Navigator.pop(context, 'Yep!');
                 },
                 child: Text('Yep!'),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.0),
               child: ElevatedButton(
                 onPressed: () {
-                  // Close the screen and return "Nope!" as the result.
                   Navigator.pop(context, 'Nope.');
                 },
                 child: Text('Nope.'),

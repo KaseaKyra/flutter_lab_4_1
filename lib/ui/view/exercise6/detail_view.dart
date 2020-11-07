@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'to_do.dart';
+import 'to_do_model.dart';
 
 class DetailScreen extends StatelessWidget {
-  // Declare a field that holds the Todo.
   final Todo todo;
 
-  // In the constructor, require a Todo.
   DetailScreen({Key key, @required this.todo}) : super(key: key);
 
   @override

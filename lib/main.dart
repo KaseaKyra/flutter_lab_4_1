@@ -1,27 +1,27 @@
 import 'package:flutter/material.dart';
 
 /// 1. Animate a widget across screens
-import 'ui/view/exercise1/main_screen.dart';
+import 'ui/view/exercise1/main_view.dart';
 
 /// 2. Navigate to a new screen and back
 import 'ui/view/exercise2/first_route.dart';
 
 /// 3. Navigate with named routes
-import 'ui/view/exercise3/first_screen.dart';
-import 'ui/view/exercise3/second_screen.dart';
+import 'ui/view/exercise3/first_view.dart';
+import 'ui/view/exercise3/second_view.dart';
 
 /// 4 Pass arguments to a named route
-import 'ui/view/exercise4/extract_arguments_screen.dart';
-import 'ui/view/exercise4/home_screen.dart';
-import 'ui/view/exercise4/pass_arguments_screen.dart';
-import 'ui/view/exercise4/screen_arguments.dart';
+import 'ui/view/exercise4/extract_arguments_view.dart';
+import 'ui/view/exercise4/home_view.dart';
+import 'ui/view/exercise4/pass_arguments_view.dart';
+import 'ui/view/exercise4/screen_arguments_model.dart';
 
 /// 5. Return data from a screen
-import 'ui/view/exercise5/home_data_screen.dart';
+import 'ui/view/exercise5/home_data_view.dart';
 
 /// 6. Send data to a new screen
-import 'ui/view/exercise6/to_do.dart';
-import 'ui/view/exercise6/to_dos_screen.dart';
+import 'ui/view/exercise6/to_do_model.dart';
+import 'ui/view/exercise6/to_dos_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       title: 'Navigation',
 
       /// 1. Animate a widget across screens
-      home: MainScreen(),
+      // home: MainScreen(),
 
       /// 2. Navigate to a new screen and back
       // home: FirstRoute(),
@@ -40,9 +40,7 @@ class MyApp extends StatelessWidget {
       /// 3. Navigate with named routes (require restart app to run)
       // initialRoute: '/',
       // routes: {
-      //   // When navigating to the "/" route, build the FirstScreen widget.
       //   '/': (context) => FirstScreen(),
-      //   // When navigating to the "/second" route, build the SecondScreen widget.
       //   '/second': (context) => SecondScreen(),
       // },
 
@@ -69,7 +67,7 @@ class MyApp extends StatelessWidget {
       // },
 
       /// 5. Return data from a screen (require restart app to run)
-      // home: HomeDataScreen(),
+      home: HomeDataScreen(),
 
       /// 6. Send data to a new screen
       // home: TodosScreen(

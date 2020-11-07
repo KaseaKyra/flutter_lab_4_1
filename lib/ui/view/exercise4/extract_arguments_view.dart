@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screen_arguments.dart';
+import 'screen_arguments_model.dart';
 
 // A Widget that extracts the necessary arguments from the ModalRoute.
 class ExtractArgumentsScreen extends StatelessWidget {

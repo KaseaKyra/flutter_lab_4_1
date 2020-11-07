@@ -11,9 +11,11 @@ class FirstScreen extends StatelessWidget {
         child: ElevatedButton(
           child: Text('Launch screen'),
           onPressed: () {
-            // Navigate to the second screen using a named route.
             Navigator.pushNamed(context, '/second');
           },
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+          ),
         ),
       ),
     );

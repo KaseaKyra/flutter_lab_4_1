@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'selection_button.dart';
+import 'selection_button_view.dart';
 
 class HomeDataScreen extends StatelessWidget {
   @override
@@ -8,7 +8,9 @@ class HomeDataScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Returning Data Demo'),
       ),
-      body: Center(child: SelectionButton()),
+      body: Center(
+        child: SelectionButton(),
+      ),
     );
   }
 }

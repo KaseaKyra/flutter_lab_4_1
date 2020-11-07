@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'detail_screen.dart';
-import 'to_do.dart';
+import 'detail_view.dart';
+import 'to_do_model.dart';
 
 class TodosScreen extends StatelessWidget {
   final List<Todo> todos;
